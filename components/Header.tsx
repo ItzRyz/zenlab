@@ -45,14 +45,14 @@ const Header = () => {
           href="/"
         >
           Home
-          <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[3px] bg-white"></span>
+          <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[3px] bg-white"></span>
         </Link>
         <div className="group">
           <p className="text-white font-black text-base transition duration-300 cursor-pointer">
             Products <HiChevronDown className="inline-block" />
-            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[3px] bg-white"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[3px] bg-white"></span>
           </p>
-          <ul class="absolute invisible opacity-0 translate-y-7 transition-all ease-in-out duration-700 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:ease-in mt-1 py-2 text-sm text-black bg-white rounded-lg shadow w-44">
+          <ul className="absolute invisible opacity-0 translate-y-7 transition-all ease-in-out duration-700 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:ease-in mt-1 py-2 text-sm text-black bg-white rounded-lg shadow w-44">
             <li>
               <a href="#" className="block px-4 py-2 hover:text-emerald-500">
                 Hosting
@@ -73,9 +73,9 @@ const Header = () => {
         <div className="group">
           <p className="text-white font-black text-base transition duration-300 cursor-pointer">
             Contact <HiChevronDown className="inline-block" />
-            <span class="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[3px] bg-white"></span>
+            <span className="block max-w-0 group-hover:max-w-full transition-all duration-500 h-[3px] bg-white"></span>
           </p>
-          <ul class="absolute invisible opacity-0 translate-y-7 transition-all ease-in-out duration-700 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:ease-in mt-1 py-2 text-sm text-black bg-white rounded-lg shadow w-44">
+          <ul className="absolute invisible opacity-0 translate-y-7 transition-all ease-in-out duration-700 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:ease-in mt-1 py-2 text-sm text-black bg-white rounded-lg shadow w-44">
             <li>
               <a href="#" className="block px-4 py-2 hover:text-emerald-500">
                 Discord
