@@ -40,10 +40,10 @@ export default function websites({ feat }) {
   );
 }
 
-export async function getStaticProps() {
-  const res = await fetch("https://zenlab.vercel.app/api/productFeatures");
-  const feat = await res.json();
-  return {
-    props: { feat },
-  };
-}
+// export async function getStaticProps() {
+//   const res = await fetch("https://zenlab.vercel.app/api/productFeatures");
+//   const feat = await res.json();
+//   return {
+//     props: { feat },
+//   };
+// }
