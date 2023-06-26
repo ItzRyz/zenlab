@@ -1,6 +1,7 @@
 import Layout from "@/components/Layout";
 import WebProductHero from "@/components/WebProductHero";
 import React from "react";
+import { loadFeatures } from "@/lib/loadFeatures";
 
 export default function websites({ feat }) {
   return (
@@ -40,10 +41,9 @@ export default function websites({ feat }) {
   );
 }
 
-// export async function getStaticProps() {
-//   const res = await fetch("https://zenlab.vercel.app/api/productFeatures");
-//   const feat = await res.json();
-//   return {
-//     props: { feat },
-//   };
-// }
+export async function getStaticProps() {
+  const feat = await loadFeatures();
+  return {
+    props: { feat },
+  };
+}
