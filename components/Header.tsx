@@ -54,22 +54,22 @@ const Header = () => {
           </p>
           <ul className="absolute invisible opacity-0 translate-y-7 transition-all ease-in-out duration-700 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:ease-in mt-1 py-2 text-sm text-black bg-white rounded-lg shadow w-44">
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-emerald-500">
+              <Link href="#" className="block px-4 py-2 hover:text-emerald-500">
                 Hosting
-              </a>
+              </Link>
             </li>
             <li>
-              <a
+              <Link
                 href="/products/websites"
                 className="block px-4 py-2 hover:text-emerald-500"
               >
                 Website Template & Service
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-emerald-500">
+              <Link href="#" className="block px-4 py-2 hover:text-emerald-500">
                 Another Software
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -80,14 +80,14 @@ const Header = () => {
           </p>
           <ul className="absolute invisible opacity-0 translate-y-7 transition-all ease-in-out duration-700 group-hover:visible group-hover:opacity-100 group-hover:translate-y-0 group-hover:ease-in mt-1 py-2 text-sm text-black bg-white rounded-lg shadow w-44">
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-emerald-500">
+              <Link href="#" className="block px-4 py-2 hover:text-emerald-500">
                 Discord
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="block px-4 py-2 hover:text-emerald-500">
+              <Link href="#" className="block px-4 py-2 hover:text-emerald-500">
                 Instagram
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
