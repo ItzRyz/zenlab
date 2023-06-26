@@ -19,7 +19,7 @@ export default function websites({ feat }) {
             </div>
             <div className="grid gap-x-6 gap-y-16 md:grid-cols-3 lg:gap-x-12">
               {feat.map((f) => (
-                <div className="flex flex-col">
+                <div className="flex flex-col" key={f.title}>
                   <h2 className="text-xl font-bold mb-4">{f.title}</h2>
                   <p className="text-gray-700">{f.description}</p>
                 </div>
