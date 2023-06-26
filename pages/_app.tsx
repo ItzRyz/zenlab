@@ -8,7 +8,7 @@ export default function App(props: AppProps) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => setLoading(false), 2500);
+    setTimeout(() => setLoading(false), 500);
   }, []);
   return <>{!loading ? <TransitionPage {...props} /> : <Preloader />}</>;
 }

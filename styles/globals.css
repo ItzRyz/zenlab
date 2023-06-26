@@ -27,5 +27,5 @@
 @tailwind utilities;
 
 body {
-  @apply bg-emerald-500 min-h-[1900px];
+  @apply bg-emerald-500;
 }

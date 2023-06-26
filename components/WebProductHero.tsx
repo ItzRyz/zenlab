@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 
-const Hero = () => {
+type Props = {};
+
+export default function WebProductHero({}: Props) {
   const scrollToBottom = () => {
     bottomEl?.current?.scrollIntoView({ behavior: "smooth" });
   };
@@ -11,11 +13,12 @@ const Hero = () => {
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl text-white">
-              ZenLab?
+              Website Template & Service
             </h1>
             <p className="max-w-2xl mb-6 font-light lg:mb-8 md:text-lg lg:text-xl text-white">
-              Technology solution for your business and community, we help you
-              to making challanges possible.
+              Have many features your can custom what you want, we provided a
+              Website Template (Only CSS & HTML) or a Website Service (Setup
+              NextJS / Laravel) with features what you want!
             </p>
             <p
               onClick={scrollToBottom}
@@ -26,7 +29,7 @@ const Hero = () => {
           </div>
           <div className="hidden mx-32 lg:mt-0 lg:col-span-5 lg:flex w-96 h-96">
             <img
-              src="/images/data-server.png"
+              src="/images/internet.png"
               alt="mockup"
               className="animate-pulse drop-shadow-[0_80px_120px_rgba(0,0,0,0.6)]"
             />
@@ -36,6 +39,4 @@ const Hero = () => {
       <div ref={bottomEl} />
     </>
   );
-};
-
-export default Hero;
+}

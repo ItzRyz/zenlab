@@ -1,4 +1,3 @@
-import { TestimonialInterface } from "@/interfaces/IClient";
 import Testimonials from "@/models/Testimonials";
 import Database from "@/utils/Database";
 import data from "@/utils/Dataseed";
